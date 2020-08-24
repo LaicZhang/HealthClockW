@@ -1,0 +1,622 @@
+{
+	"connectionData": [
+		{
+			"t": true,
+			"loginURL": "https://passport2.chaoxing.com/fanyalogin"
+		},
+		{
+			"formId": 1651,
+			"formURL": "http://office.chaoxing.com/data/apps/forms/fore/user/save?lookuid=",
+			"formData": [
+				{
+					"linkInfo": {
+						"bindFormValueFieldId": 0,
+						"bindFormCondFieldId": 0,
+						"linked": false,
+						"currFormCondFieldId": 0
+					},
+					"compt": "selectbox",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 13,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "数学与计算机学院"
+								}
+							],
+							"options": [
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "钒钛学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "经济与管理学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "交通与汽车工程学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "康养学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "人文社科学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "生物与化学工程学院"
+								},
+								{
+									"idArr": [],
+									"checked": true,
+									"title": "数学与计算机学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "土木与建筑工程学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "外国语学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "艺术学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "医学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "智能制造学院"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "研究生处"
+								}
+							],
+							"verify": {
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "二级学院",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"optionBindInfo": {
+						"bindFieldId": 0,
+						"bindFieldIdx": -1,
+						"isBinded": false,
+						"bindFormId": 0,
+						"originalOptions": [
+							{
+								"idArr": [],
+								"checked": false,
+								"title": "选项1"
+							},
+							{
+								"idArr": [],
+								"checked": false,
+								"title": "选项2"
+							},
+							{
+								"idArr": [],
+								"checked": false,
+								"title": "选项3"
+							}
+						]
+					},
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"linkInfo": {
+						"bindFormValueFieldId": 0,
+						"bindFormCondFieldId": 0,
+						"linked": false,
+						"currFormCondFieldId": 0
+					},
+					"compt": "editinput",
+					"inDetailGroupIndex": -1,
+					"latestValShow": false,
+					"id": 1,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "2017级软件工程一班"
+								}
+							],
+							"verify": {
+								"format": {
+									"type": ""
+								},
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "年级、专业、班级",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"compt": "radiobutton",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 2,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "健康"
+								}
+							],
+							"options": [
+								{
+									"idArr": [],
+									"checked": true,
+									"title": "健康"
+								},
+								{
+									"idArr": [
+										11
+									],
+									"checked": false,
+									"title": "有发烧/咳嗽等症状"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "其他"
+								}
+							],
+							"verify": {
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "健康状况",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"linkInfo": {
+						"bindFormValueFieldId": 0,
+						"bindFormCondFieldId": 0,
+						"linked": false,
+						"currFormCondFieldId": 0
+					},
+					"compt": "editinput",
+					"inDetailGroupIndex": -1,
+					"latestValShow": false,
+					"id": 3,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "广东省茂名市电白区"
+								}
+							],
+							"verify": {
+								"format": {
+									"type": ""
+								},
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "当前所在省、市、县（区）",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"compt": "radiobutton",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 14,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "否"
+								}
+							],
+							"options": [
+								{
+									"idArr": [
+										11
+									],
+									"checked": false,
+									"title": "是"
+								},
+								{
+									"idArr": [],
+									"checked": true,
+									"title": "否"
+								}
+							],
+							"verify": {
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "14天内是否曾前往疫情防控重点区域",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"compt": "radiobutton",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 4,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "否"
+								}
+							],
+							"options": [
+								{
+									"idArr": [
+										11
+									],
+									"checked": false,
+									"title": "是"
+								},
+								{
+									"idArr": [],
+									"checked": true,
+									"title": "否"
+								}
+							],
+							"verify": {
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "14天内是否有与高危人员有密切接触历史",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"compt": "radiobutton",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 5,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "否"
+								}
+							],
+							"options": [
+								{
+									"idArr": [
+										11
+									],
+									"checked": false,
+									"title": "是"
+								},
+								{
+									"idArr": [],
+									"checked": true,
+									"title": "否"
+								}
+							],
+							"verify": {
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "家中或亲人是否有感染者或疑似感染者",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"compt": "radiobutton",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 6,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "否"
+								}
+							],
+							"options": [
+								{
+									"idArr": [
+										11,
+										7,
+										8
+									],
+									"checked": false,
+									"title": "是"
+								},
+								{
+									"idArr": [],
+									"checked": true,
+									"title": "否"
+								}
+							],
+							"verify": {
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "自己是否为疑似病例",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"compt": "radiobutton",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 7,
+					"fields": [
+						{
+							"values": [],
+							"options": [
+								{
+									"idArr": [
+										11
+									],
+									"checked": false,
+									"title": "是"
+								},
+								{
+									"idArr": [],
+									"checked": false,
+									"title": "否"
+								}
+							],
+							"verify": {},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "是否被隔离",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": false
+				},
+				{
+					"linkInfo": {
+						"bindFormValueFieldId": 0,
+						"bindFormCondFieldId": 0,
+						"linked": false,
+						"currFormCondFieldId": 0
+					},
+					"compt": "editinput",
+					"inDetailGroupIndex": -1,
+					"latestValShow": false,
+					"id": 8,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": ""
+								}
+							],
+							"verify": {
+								"format": {
+									"type": ""
+								}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "隔离地点",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": false
+				},
+				{
+					"compt": "radiobutton",
+					"inDetailGroupIndex": -1,
+					"latestValShow": true,
+					"id": 9,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": "否"
+								}
+							],
+							"options": [
+								{
+									"idArr": [
+										11,
+										10
+									],
+									"checked": false,
+									"title": "是"
+								},
+								{
+									"idArr": [],
+									"checked": true,
+									"title": "否"
+								}
+							],
+							"verify": {
+								"required": {}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "是否已确诊病例",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": true
+				},
+				{
+					"linkInfo": {
+						"bindFormValueFieldId": 0,
+						"bindFormCondFieldId": 0,
+						"linked": false,
+						"currFormCondFieldId": 0
+					},
+					"compt": "editinput",
+					"inDetailGroupIndex": -1,
+					"latestValShow": false,
+					"id": 10,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": ""
+								}
+							],
+							"verify": {
+								"format": {
+									"type": ""
+								}
+							},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "住院地点",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": false
+				},
+				{
+					"linkInfo": {
+						"bindFormValueFieldId": 0,
+						"bindFormCondFieldId": 0,
+						"linked": false,
+						"currFormCondFieldId": 0
+					},
+					"compt": "edittextarea",
+					"inDetailGroupIndex": -1,
+					"latestValShow": false,
+					"id": 11,
+					"fields": [
+						{
+							"values": [
+								{
+									"val": ""
+								}
+							],
+							"verify": {},
+							"tip": {
+								"imgs": [],
+								"text": ""
+							},
+							"label": "需要说明的情况",
+							"fieldType": {
+								"type": "string"
+							}
+						}
+					],
+					"fromDetail": false,
+					"isShow": false
+				}
+			]
+		},
+		{
+			"Connection": "keep-alive",
+			"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36",
+			"Sec-Fetch-Site": "same-origin",
+			"Sec-Fetch-Dest": "empty",
+			"Host": "passport2.chaoxing.com",
+			"Accept-Encoding": "gzip, deflate, br",
+			"Accept-Language": "zh-CN,zh;q=0.9",
+			"Sec-Fetch-Mode": "cors"
+		}
+	]
+}

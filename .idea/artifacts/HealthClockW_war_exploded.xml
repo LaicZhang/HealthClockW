@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HealthClockW:war exploded">
+    <output-path>D:/apache-tomcat-9.0.36/webapps/heath</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HealthClockW/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HealthClockW" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="fastjson-1.2.73" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
