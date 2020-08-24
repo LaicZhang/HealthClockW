@@ -11,6 +11,6 @@
     <title>提交结果</title>
 </head>
 <body>
-<%= (String) request.getAttribute("result") %>
+    <%= (String) request.getAttribute("result") %>
 </body>
 </html>

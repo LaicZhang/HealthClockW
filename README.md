@@ -1,5 +1,9 @@
 # HealthClockW
 
+## 演示站点
+
+- http://4dvd5y.natappfree.cc/heath/
+
 本项目为专属于攀大学子设计的超星学习通自动健康打卡系统。
 
 ## 使用说明
